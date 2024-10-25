@@ -65,7 +65,7 @@ async function genNewBet() {
   try {
     let JSONBet;
     let bet;
-    await fetch("http://localhost:3000/bets/getBets")
+    await fetch("https://sir-euromilhoes-27616.onrender.com/bets/getBets")
       .then((response) => response.text())
       .then((data) => {
         console.log(data);
